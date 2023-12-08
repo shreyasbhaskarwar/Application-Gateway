@@ -3,18 +3,15 @@
   "version": "0.5.2",
   "description": "OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management",
   "main": "index.js",
-  "authors": {
-    "name": "",
-    "email": ""
-  },
   "repository": "https://github.com/gianlucafrei/Application-Gateway/",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "docs:build": "vuepress build docs"
-  },
+  "author": "",
   "license": "MIT",
+  "private": false,
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.9.10"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }

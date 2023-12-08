@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: 'Logo.png'
+heroImage: '/Logo.png'
 tagline: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management
 actionText: Get Started
 actionLink: /docs/
