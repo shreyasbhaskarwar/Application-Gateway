@@ -1,0 +1,19 @@
+{
+  "name": "NellyGateway",
+  "version": "0.5.2",
+  "description": "OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "https://github.com/gianlucafrei/Application-Gateway/",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
