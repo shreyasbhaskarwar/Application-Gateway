@@ -11,6 +11,4 @@ deploy:
   local_dir: docs/.vuepress/dist
   github_token: ${{ secrets.ACCESS_TOKEN }}
   keep_history: true
-  on:
-    push:
-      branch: create-website-for-project
+  on: [push]
