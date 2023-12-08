@@ -12,6 +12,8 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+  base: '/Application-Gateway/',
+
   themeConfig: {
     repo: repository,
     editLinks: false,
